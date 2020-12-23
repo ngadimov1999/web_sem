@@ -1,0 +1,235 @@
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+    .header-menu-right {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+    .header-menu-left {
+        margin-top: 1.5%;
+    }
+
+    .header-menu {
+        width: 97%;
+        align-items: flex-start;
+    }
+
+    .header-menu-right-phone {
+        padding: 0;
+        margin: 15% -10px 0 0;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .text-center {
+        width: 74%;
+    }
+
+    .header-slider__content {
+        width: 97%;
+    }
+
+    .text-button {
+        display: none;
+    }
+
+    .main-text-steps-container {
+        margin: 100px;
+    }
+
+    .main-text {
+        margin-top: 15%;
+    }
+
+    .main-text-steps {
+        margin: 0;
+    }
+
+    .footer-box {
+        width: 97%;
+        position: relative;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 100px;
+
+    }
+
+    .footer-box-links {
+        width: 80%;
+        padding-right: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .footer-box-links-column {
+        margin: 0 0% 0 10%;
+
+    }
+
+    .footer-box-links-list {
+        margin: 10% 0% 0% 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .footer-box-links-list-column {
+        width: 120px;
+    }
+
+    .footer {
+        padding: 0 0px 200px 0px;
+        height: 300px;
+    }
+
+    .footer-box-links-column-link > div {
+        width: 130px;
+    }
+
+    .ffooter-box-links-logo {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .footer-box-links-list-column-info {
+        width: 150px;
+    }
+}
+
+
+
+@media only screen and (max-device-width: 539px) {
+    .header-menu {
+        width: 96%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .header-menu-left-stick,
+    .header-menu-left-text,
+    .header-menu-right-phone-text,
+    .header-menu-right-phone {
+        display: none;
+    }
+
+    .header-slider__content {
+        width: 98%;
+        justify-content: center;
+    }
+
+    .text {
+        width: 98%;
+        padding-bottom: 10%;
+    }
+
+    .text-center {
+        font-size: 17px;
+    }
+
+    .text-button {
+        width: 100%;
+    }
+
+    .text-top {
+        font-size: 38px;
+        line-height: 46px;
+        margin-bottom: 18px;
+    }
+
+    .main-text-steps-container {
+        margin: 65px 65px 0px 65px;
+    }
+
+    .main-text {
+        margin: 25% 0 20% 0;
+    }
+
+    span.main-text-steps-container-top {
+        margin-bottom: 25%;
+        margin-top: 35%;
+    }
+
+    .main-text-steps {
+        margin-bottom: 30%;
+        width: 100%;
+    }
+
+    .footer-box {
+        width: 97%;
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 100px;
+    }
+
+    .ffooter-box-links-logo {
+        margin-left: 5%;
+        margin-bottom: 10%;
+        margin-top: 10px;
+    }
+
+    .footer-box-links {
+        padding-right: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .footer-box-links-column {
+        margin: 10% 0% 0 0%;
+    }
+
+    .footer-box-links-list {
+        margin: 10% 0% 0% 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .authorization-form-input-error {
+        margin-top: 0;
+        height: 200px;
+    }
+
+   .authorization-form-input {
+        margin-top: 0;
+    }
+
+    #container {
+        z-index: 10;
+    }
+
+    .footer-box-links-list-column {
+        width: 120px;
+    }
+
+    .footer {
+        padding: 0 0px 80px 0px;
+    }
+
+    .footer-box-links-column-link > div {
+        width: 130px;
+    }
+
+    .ffooter-box-links-logo {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .footer-box-links-list-column-info {
+        width: 150px;
+    }
+}
