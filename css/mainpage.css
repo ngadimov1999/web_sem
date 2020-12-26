@@ -172,8 +172,7 @@ body {
 .footer {
     padding: 97px 0px 50px 0px;
     display: flex;
-    width: 1440px;
-    flex-direction: row;
+    width: 100%;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
@@ -215,6 +214,11 @@ body {
 }
 
 .footer-about-franch-text{
+    white-space: nowrap;
+    margin-top: 2px;
+    margin-bottom: 18px;
+}
+.footer-about-franch-text1{
     margin-top: 2px;
     margin-bottom: 18px;
 }
@@ -256,9 +260,6 @@ a {
     width: 175px;
 }
 
-.footer-box-links-list-column-info-address{
-
-}
 
 .main-text {
     font-family: Proxima Nova Bold, sans-serif;
@@ -638,17 +639,33 @@ input[name="r"]{
     .main-text-steps{
         height: 5%;
     }
+    .footer-img{
+        margin-right: 100%;
+        margin-left: 100%;
+    }
+    .footer-about-franch{
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    .footer-delivery-action{
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    .footer-info{
+        margin-right: 100%;
+        margin-left: 100%;
+    }
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1440px){
     .main{
         width: 100%;
     }
     .footer{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-@media only screen and (min-width: 540px) and (max-width: 900px) {
+@media only screen and (min-width: 540px) and (max-width: 1005px) {
     .header-menu-right {
         flex-direction: column-reverse;
         align-items: flex-end;
@@ -736,7 +753,7 @@ input[name="r"]{
     }
 
     .footer {
-        padding: 0 0px 200px 0px;
+        padding: 97px 0px 97px 0px;
         height: 300px;
     }
 
@@ -744,7 +761,7 @@ input[name="r"]{
         width: 130px;
     }
 
-    .ffooter-box-links-logo {
+    .footer-box-links-logo {
         margin-right: 0px;
         margin-top: 10px;
     }
@@ -867,14 +884,14 @@ input[name="r"]{
     }
 
     .footer {
-        padding: 0 0px 80px 0px;
+        padding: 97px 0px 97px 0px;
     }
 
     .footer-box-links-column-link > div {
         width: 130px;
     }
 
-    .ffooter-box-links-logo {
+    .footer-box-links-logo {
         margin-right: 0px;
         margin-top: 10px;
     }
@@ -883,5 +900,3 @@ input[name="r"]{
         width: 150px;
     }
 }
-
-@media ma
