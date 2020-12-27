@@ -167,13 +167,21 @@ body {
     background: #23415E;
     width: 100%;
     height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
 }
 
 .footer {
     padding: 97px 0px 50px 0px;
     display: flex;
-    width: 100%;
+    flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     align-items: flex-start;
@@ -393,11 +401,10 @@ a {
 }
 
 .header-slider {
-    width: 100%;
     height: 630px;
     position: relative;
     overflow: hidden;
-
+    width: 100%;
     z-index: 0;
 }
 
@@ -435,7 +442,7 @@ input[name="r"]{
     align-items: center;
     justify-content: space-around;
     width: 40px;
-        z-index: 15;
+    z-index: 15;
 }
 
 .bar {
@@ -456,7 +463,6 @@ input[name="r"]{
     justify-content: center;
     align-items: flex-start;
     margin-right: 100px;
-    text-align: right;
 }
 
 .text-img {
@@ -485,7 +491,7 @@ input[name="r"]{
 #img1{
     background: url("../img/slider_img1.svg") no-repeat;
     background-position: bottom left;
-    background-size: 470px;
+    background-size: 500px;
 }
 
 #img2{
@@ -500,7 +506,7 @@ input[name="r"]{
     line-height: 64px;
     color: #FFFFFF;
     margin: 0px;
-    text-align: right;
+    text-align: left;
 }
 
 .text-center {
@@ -509,7 +515,7 @@ input[name="r"]{
     line-height: 24px;
     color: #FFFFFF;
     margin: 4% 0% 15% 0%;
-    text-align: right;
+    text-align: left;
 }
 
 .text-button {
@@ -642,15 +648,18 @@ input[name="r"]{
     .footer-img{
         margin-right: 100%;
         margin-left: 100%;
+        margin-bottom: 18px;
     }
+
     .footer-about-franch{
-        margin-right: 50%;
-        margin-left: 50%;
+        margin-right: 0px;
+        text-align: center;
     }
     .footer-delivery-action{
-        margin-right: 50%;
-        margin-left: 50%;
+        margin-right: 0px;
+        text-align: center;
     }
+
     .footer-info{
         margin-right: 100%;
         margin-left: 100%;
@@ -664,7 +673,7 @@ input[name="r"]{
     .footer{
         flex-wrap: wrap;
     }
-
+}
 @media only screen and (min-width: 540px) and (max-width: 1005px) {
     .header-menu-right {
         flex-direction: column-reverse;
@@ -685,6 +694,10 @@ input[name="r"]{
         margin: 15% -10px 0 0;
     }
 
+    .header-slider__content {
+        width: 97%;
+    }
+
     .img {
         display: none;
     }
@@ -698,9 +711,9 @@ input[name="r"]{
     }
 
     .header-slider__content {
-        width: 97%;
+        width: 98%;
+        justify-content: center;
     }
-
     .text-button {
         display: none;
     }

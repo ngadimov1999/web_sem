@@ -8,7 +8,7 @@
     <link href="../css/mainpage.css" rel="stylesheet">
     <link rel="icon" href="../img/icon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -35,7 +35,42 @@
 
         <!--Слайдер-->
         <div class="header-slider">
-            
+            <div class="header-slider-active">
+                <div class="header-slider-active-slider1" id="slider1">
+                    <div class="text-img">
+                        <div class="text">
+                            <div class="text-top">Срочная доставка день в день</div>
+                            <div class="text-center">Для тех, кто не может ждать у нас есть услуга срочной курьерской доставки корреспондеции и других видов отправлений.</div>
+                            <div class="text-button">
+                                <div class="text-button__text"><a href="#" class="text-button__button"><b>Заказать доставку</b></a></div>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <div class="img__container" id="img1"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-slider-active-slider1" id="slider2">
+                    <div class="text-img">
+                        <div class="text">
+                            <div class="text-top">Подписание договора за 1 час</div>
+                            <div class="text-center">В течение часа наш курьер заберёт вашу посылку и подпишет с Вами договор о предоставлении услуг.</div>
+                            <div class="text-button">
+                                <div class="text-button__text"><a href="#" class="text-button__button"><b>Заказать доставку</b></a></div>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <div class="img__container" id="img2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-slider-navigation">
+                <div class="block"></div>
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+            </div>
         </div>
 
     </header>
@@ -160,5 +195,6 @@
    </div> 
    
     <script src="../js/login.js"></script>
+    <script src="../js/slider.js"></script>
 </body>
 </html>
