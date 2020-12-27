@@ -4,6 +4,7 @@ let enterButton = document.querySelector(".header-menu-right-button"); // Кно
 let authPopup = document.querySelector(".authorization"); // Форма
 let closeButton = document.querySelector(".authorization-form-close"); // Закрытие формы
 let submitButton = document.querySelector(".authorization-form-submit"); // Отправка данных с формы
+let closeForm = document.querySelector(".authorization" );// Закрытие формы при нажатии вне поля
 
 let error = document.querySelector(".authorization-form-input-error"); // Ошибка
 
@@ -21,9 +22,21 @@ enterButton.onclick = () => {
     authPopup.style.display = "flex";
 }
 
+
 //Закрытие формы
 closeButton.onclick = () => {
     authPopup.style.display = "none";
+}
+
+closeForm.onclick = function(e){
+    if (e.target.className != 'authorization-form' & e.target.className != 'authorization-form-tittle' & e.target.className != 'authorization-form-into'
+    & e.target.className != 'authorization-form-input-error' & e.target.className != 'authorization-form-input-field'
+    & e.target.className != 'authorization-form-submit' & e.target.className != 'authorization-form-submit-button') 
+        authPopup.style.display = 'none';
+
+    else
+        authPopup.style.display = 'true';
+    
 }
 
 //Поля заполненные некорректно

@@ -1,7 +1,3 @@
-$(document).ready(function () {
-    $('label[for=r2]').css('background', '#264160');
-});
-
 var label = $("label[for=r1],label[for=r2]");
 
 function change() {
@@ -71,3 +67,8 @@ function slide(slider1, slider2) {
         }, 10);
     }, 600);
 }
+
+
+
+
+
