@@ -405,7 +405,7 @@ a {
     height: 630px;
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 1440px;
     z-index: 0;
 }
 
@@ -673,6 +673,9 @@ input[name="r"]{
     }
     .footer{
         flex-wrap: wrap;
+    }
+    .header-slider {
+        width: 100%;
     }
 }
 @media only screen and (min-width: 540px) and (max-width: 1005px) {
